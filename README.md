@@ -38,7 +38,7 @@ Updates your deployed application continually:
 -  Continuous build-deploy loop, only warn on errors
 
 ### skaffold run
-Run runs a Skaffold pipeline once, exits on any errors in the pipeline.  
+Run a Skaffold pipeline once, exits on any errors in the pipeline.  
 Use for:
 -  Continuous integration or continuous deployment pipelines
 -  Sanity checking after iterating on your application
@@ -58,10 +58,10 @@ You will need the following components to get started with Skaffold:
    -  [Minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/),
       [GKE](https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-container-cluster),
       [Docker for Mac (Edge)](https://docs.docker.com/docker-for-mac/install/) and [Docker for Windows (Edge)](https://docs.docker.com/docker-for-windows/install/)
-      have been tested but any Kubernetes cluster will work.
+      have been tested, but any Kubernetes cluster will work.
 
 1. [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-   -  Configure the current-context with your target cluster for development
+   -  Configure the current-context with your target cluster for development.
 
 1. docker
 
