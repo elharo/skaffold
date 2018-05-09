@@ -2,9 +2,9 @@
 
 [![Build Status](https://travis-ci.org/GoogleContainerTools/skaffold.svg?branch=master)](https://travis-ci.org/GoogleContainerTools/skaffold)
 
-Skaffold is a command line tool that facilitates continuous development for Kubernetes applications. You can iterate on your 
-application source code locally then deploy to local or remote Kubernetes clusters. Skaffold handles the workflow for building,
-pushing and deploying your application. It can also be used in an automated context such as a CI/CD pipeline to leverage the same 
+Skaffold is a command line tool that facilitates continuous development of Kubernetes applications. You can iterate on your 
+application source code locally, then deploy to local or remote Kubernetes clusters. Skaffold handles the workflow for building,
+pushing, and deploying your application. It can also be used in an automated context such as a CI/CD pipeline to leverage the same 
 workflow and tooling when moving applications to production.
 
 - [Skaffold](#skaffold)
@@ -69,7 +69,7 @@ You will need the following components to get started with Skaffold:
    -  [Minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/),
       [GKE](https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-container-cluster),
       [Docker for Mac (Edge)](https://docs.docker.com/docker-for-mac/install/) and [Docker for Windows (Edge)](https://docs.docker.com/docker-for-windows/install/)
-      have been tested but any Kubernetes cluster will work.
+      have been tested, but any Kubernetes cluster will work.
 
 1. [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
    -  If you're not using Minikube, configure the current-context with your target cluster for development
@@ -128,7 +128,7 @@ You will need the following components to get started with Skaffold:
     [getting-started] Hello world!
     ```
 
-1. Skaffold has done the following for you:
+1. Skaffold does the following for you:
 
    - Build an image from the local source code
    - Tag it with its sha256
